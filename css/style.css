@@ -1,16 +1,28 @@
+body{
+  background-color: #dddbf8d8;
+}
+
 /* NAVBAR */
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px 30px;
-  background-color: #333;
+  background-color: hsl(240, 89%, 83%);
+  border-radius: 10px;
+  border: 1px solid hsl(238, 34%, 46%);
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.9);
 }
 
 .navbar .logo {
-  color: #fff;
+  color: rgb(248, 248, 250);
   font-size: 22px;
   font-weight: bold;
+  display: flex;
+  padding: 15px 30px;
+  border-radius: 10px;
+  border: 1px solid hsl(238, 72%, 31%);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
 }
 
 .nav-links {
@@ -21,25 +33,91 @@
 
 .nav-links a {
   text-decoration: none;
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 16px;
   transition: 0.3s;
 }
 
 .nav-links a:hover {
-  color: #ffcc00;
+  color: #231c83;
 }
+
+/* LOGIN */
+.container {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: hsl(238, 55%, 90%);
+  border: 1px solid hsl(238, 51%, 69%);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: hsl(240, 95%, 77%);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: hsl(240, 95%, 77%);
+}
+
+input[type="text"], input[type="password"] {
+  width: 93%;
+  height: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #231c83;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  height: 40px;
+  background-color: hsl(240, 95%, 77%);
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #231c83;
+}
+
+/* ABOUT */
+.pln {
+  padding: 15px 30px;
+  border-radius: 10px;
+  border: 1px solid hsl(238, 34%, 46%);
+  margin-top: 10px;
+}
+
+.contact p{
+  padding: 15px 30px;
+  border-radius: 10px;
+  border: 1px solid hsl(238, 34%, 46%);
+}
+
+
 
 /* FOOTER */
 footer {
-  background-color: #222;
-  color: white;
+  background-color: hsl(240, 95%, 77%);
   padding: 20px 0;
   margin-top: 40px;
+  border-radius: 10px;
+  border: 1px solid hsl(238, 86%, 51%);
 }
 
 .footer-container {
   text-align: center;
+  color: white;
 }
 
 .footer-links {
@@ -51,11 +129,12 @@ footer {
 }
 
 .footer-links a {
-  color: #ddd;
+  color: #0f0000;
   text-decoration: none;
   transition: 0.3s;
+  color: white;
 }
 
 .footer-links a:hover {
-  color: #ffcc00;
+  color: #231c83;
 }
