@@ -84,6 +84,7 @@ input[type="submit"] {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  display: block;
 }
 
 input[type="submit"]:hover {
