@@ -226,12 +226,13 @@ section {
     background: var(--second-color);
     transition: o.4s all cubic-bezier(0.75, 0.82, 0.165, 1);
 }
-footer{
-    display: grid;
-    grid-template-columns: repeat(4,auto);
-    justify-content: space-between;
-    gap: 1rem;
-    margin-top: 3rem !important;
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%:
+    padding: 10px;
+    text-align: center;
+
 }
 .footer .logo{
     color: var(--main-color);
