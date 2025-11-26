@@ -24,6 +24,12 @@ body{
   background-color: #dddbf8d8;
 }
 
+.container {
+    max-width: 1060px;
+    margin: auto;
+    width: 100%;
+}
+
 .header {
     position: fixed;
     top: 20px;
