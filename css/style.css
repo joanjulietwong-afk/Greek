@@ -25,6 +25,14 @@ body{
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
 }
 
+.menu-toggle {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: #fff;
+  margin-bottom: 5px;
+}
+
 .nav-links {
   list-style: none;
   display: flex;
