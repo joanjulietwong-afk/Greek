@@ -227,12 +227,9 @@ section {
     transition: o.4s all cubic-bezier(0.75, 0.82, 0.165, 1);
 }
 .footer{
-    position: fixed;
-    bottom: 0;
-    width: 100%:
+    clear: both;
+    margin-top: 20px;
     padding: 10px;
-    text-align: center;
-
 }
 .footer .logo{
     color: #ffd700;
