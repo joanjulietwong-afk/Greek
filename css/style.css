@@ -1,3 +1,25 @@
+/* Google Fonts */
+@import url("https://Fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-padding-top: 3rem;
+    font-family: var(--font-family-2);
+}
+/* variables */
+:root {
+    --main-color: #54372a;
+    --second-color: #df582e;
+    --text-color: #060413;
+    --container-color: #f8e4be;
+    --bg-color: #f9f6f2;
+    --text-alter-color: #94908e;
+    --poppins-font: "poppins",sans-serif;
+    --font-family: "PlayFair Display", serif;
+}
+
 body{
   background-color: #dddbf8d8;
 }
